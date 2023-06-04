@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>JS Task 5</title>
+</head>
+<body>
+  <p>
+	Write a JavaScript function that reverse a number. <br>
+	Example x = 32243; <br>
+	Expected Output : 34223 
+  </p>
+  <p>The reverse of 123456789 is shown in the console... We can view that using Right click -> Inspect -> Console</p>
+  
+  <script>
+	function reverseNumber (number){
+		var stringNum = number.toString();
+		var reverseNum = stringNum.split("").reverse().join("");
+		console.log (reverseNum);
+	}
+	
+	reverseNumber (123456789);
+  </script>
+</body>
+</html>
